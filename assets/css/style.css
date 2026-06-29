@@ -513,7 +513,7 @@ strong { font-weight: 600; color: var(--white); }
   font-family: var(--font-elegant);
 }
 .hero__author { font-size: 1rem; color: var(--silver-2); margin: 0.5rem 0 0.25rem; font-weight: 300; }
-.hero__author strong { color: var(--gold-pale); font-weight: 500; }
+.hero__author strong { color: var(--gold-pale); font-weight: 500; font-size: 1.1rem;}
 .hero__publisher {
   font-size: 0.8rem;
   color: var(--teal-mid);
