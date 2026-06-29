@@ -1221,9 +1221,7 @@ strong { font-weight: 600; color: var(--white); }
   .hero__cover-flipper {
     height: 240px;
   }
-  .hero__author-ring {
-    display: none;
-  }
+  
 
   .home-sections  { padding: 0 1.25rem 4rem; }
   .quotes-grid    { grid-template-columns: 1fr; }
