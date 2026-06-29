@@ -1,0 +1,16 @@
+<nav class="nav" id="mainNav">
+  <div class="nav__inner">
+    <a href="{{ site.baseurl }}/" class="nav__brand">
+      <em>Non-Venatus</em>
+    </a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ site.baseurl }}/engagements.html" {% if page.url contains 'engagements' %}class="active"{% endif %}>Engagements</a></li>
+      <li><a href="{{ site.baseurl }}/interactions.html" {% if page.url contains 'interactions' %}class="active"{% endif %}>Interactions</a></li>
+      <li><a href="{{ site.baseurl }}/about.html" {% if page.url contains 'about' %}class="active"{% endif %}>About</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
