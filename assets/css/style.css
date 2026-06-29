@@ -1186,10 +1186,12 @@ strong { font-weight: 600; color: var(--white); }
   .nav__links {
      display: flex;
      gap: 0.1rem;
+     flex-wrap: wrap;
+     justify-content: flex-end;
    }
    .nav__links a {
-     font-size: 0.68rem;
-     padding: 0.35rem 0.45rem;
+     font-size: 0.72rem;
+     padding: 0.35rem 0.5rem;
      letter-spacing: 0;
    }
    .nav__toggle { display: none; }
