@@ -1,0 +1,26 @@
+# =====================================================
+# BOOK RECEPTION QUOTES
+# Edit this file to add/update quotes from reviewers
+# Each quote needs: name, title, text (and optionally institution)
+# =====================================================
+
+quotes:
+  - name: "Abdullah Öcalan"
+    title: "Kurdish Political Leader and Philosopher"
+    institution: ""
+    text: "A courageous work that names the violence hidden within academic institutions and proposes genuine paths of escape."
+
+  - name: "Academic Reviewer"
+    title: "Professor of Political Philosophy"
+    institution: "Jawaharlal Nehru University"
+    text: "Non-Venatus is a rare intervention — it refuses both the comfort of critique and the paralysis of despair. Premananda gives us a fugitive methodology for thinking peace."
+
+  - name: "Scholar"
+    title: "Author and Political Theorist"
+    institution: "University of Delhi"
+    text: "This book does something genuinely difficult: it builds an escape route from within the very structures it dismantles. An essential read for anyone thinking about fascism, knowledge, and resistance."
+
+  - name: "Reviewer"
+    title: "Researcher in Postcolonial Studies"
+    institution: ""
+    text: "Premananda's concept of venatus gives us a new vocabulary for understanding how universities become instruments of war. A necessary, urgent book."

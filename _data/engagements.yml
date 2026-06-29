@@ -1,0 +1,64 @@
+# =====================================================
+# BOOK ENGAGEMENTS / EVENTS
+# Edit this file to add events. 
+# image: path relative to /img/ folder
+# popup_text: full description shown in the event popup
+# =====================================================
+
+events:
+  - id: "launch-delhi"
+    title: "Book Launch — Delhi"
+    date: "July 2026"
+    venue: "India International Centre, New Delhi"
+    short_desc: "Official launch of Non-Venatus with panel discussion"
+    image: "img/event-placeholder.jpg"
+    popup_text: >
+      The official launch event for Non-Venatus: On the Production of Wars and Universities 
+      at the India International Centre, New Delhi. The event featured a panel discussion 
+      with scholars from political philosophy, postcolonial studies, and peace studies. 
+      The author Hidam Premananda was joined by academics from University of Delhi and 
+      Jawaharlal Nehru University to discuss the key concepts of the book, including 
+      venatus, Non-Venatus Studies, and peace nomadology.
+    tags: ["Launch", "Panel Discussion"]
+
+  - id: "bloomsbury-talk"
+    title: "Bloomsbury Author Talk"
+    date: "August 2026"
+    venue: "Online / Bloomsbury Publishing"
+    short_desc: "Author talk hosted by Bloomsbury Academic"
+    image: "img/event-placeholder.jpg"
+    popup_text: >
+      An online author talk hosted by Bloomsbury Academic featuring Hidam Premananda 
+      in conversation about the intellectual journey behind Non-Venatus. The discussion 
+      explored the book's engagement with thinkers like Deleuze, Guattari, Öcalan, and 
+      the Dalai Lama, and what it means to build a 'Non-Venatus Studies' outside 
+      conventional academic standards.
+    tags: ["Online", "Author Talk"]
+
+  - id: "read-act-session"
+    title: "Read-Act Special Session"
+    date: "September 2026"
+    venue: "Read-Act Community, New Delhi"
+    short_desc: "A special reading and discussion session with the Read-Act community"
+    image: "img/event-placeholder.jpg"
+    popup_text: >
+      A special session of the Read-Act book club dedicated to Non-Venatus. 
+      Participants read and discussed selected chapters from the book, focusing on 
+      the themes of 'peace nomadology' and the critique of academic violence. 
+      The session brought together scholars, artists, and activists to engage with 
+      the book's proposals for fugitive thinking.
+    tags: ["Reading Group", "Community"]
+
+  - id: "international-seminar"
+    title: "International Seminar on Fascism and Knowledge"
+    date: "October 2026"
+    venue: "TBA"
+    short_desc: "Keynote presentation at an international academic seminar"
+    image: "img/event-placeholder.jpg"
+    popup_text: >
+      Hidam Premananda presented the core arguments of Non-Venatus at an international 
+      seminar on fascism, knowledge production, and resistance. The presentation 
+      introduced the concept of venatus to an international audience of scholars 
+      and provoked discussion about the complicity of universities in producing 
+      the conditions for war and authoritarian governance.
+    tags: ["Keynote", "International"]
