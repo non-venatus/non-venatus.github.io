@@ -20,9 +20,9 @@ const CONFIG = {
   // ── Supabase ──────────────────────────────────────────────────
   // Get these from: Supabase → Settings → API
   supabase: {
-    url:            'YOUR_SUPABASE_PROJECT_URL',      // e.g. https://xxxx.supabase.co
-    anonKey:        'YOUR_SUPABASE_ANON_KEY',          // Safe to expose (RLS protects data)
-    serviceRoleKey: 'YOUR_SUPABASE_SERVICE_ROLE_KEY'  // Admin only — keep secret!
+    url:            'https://rwmobytwkobejjlibatn.supabase.co/rest/v1/',      // e.g. https://xxxx.supabase.co
+    anonKey:        'sb_publishable_83ZPlmqlXCkHiJ-fYquQDQ_FOazw7oc',          // Safe to expose (RLS protects data)
+    serviceRoleKey: 'sb_secret_ViQJLNATiCCSh3FtEk8zdw_beGQVHW2'  // Admin only — keep secret!
   },
 
   // ── Admin password ────────────────────────────────────────────
