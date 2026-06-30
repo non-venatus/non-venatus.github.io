@@ -1,0 +1,67 @@
+---
+layout: default
+title: Interactions
+description: Share your thoughts on Non-Venatus by Hidam Premananda
+extra_js: interactions.js
+---
+
+<!-- Book display strip -->
+<div class="interactions-cover reveal">
+  <img src="{{ site.baseurl }}/img/cover-thumb.jpg" alt="Non-Venatus cover">
+  <div class="interactions-cover-text">
+    <span class="eyebrow">Discuss this book</span>
+    <h2>Interactions</h2>
+    <p>Read what others are saying, and share your own thoughts below.</p>
+  </div>
+</div>
+
+<!-- ── Comments ─────────────────────────────────────────────── -->
+<div class="comments-list">
+  <h3>
+    Responses
+    <span id="commentCount" style="font-size:0.85rem; color:var(--silver); font-family:var(--font-body); font-weight:400; margin-left:0.5rem;"></span>
+  </h3>
+
+  <div id="commentsContainer">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="load-more-wrap" id="loadMoreWrap" style="display:none;">
+    <button class="btn btn-outline" id="loadMoreBtn">Load more responses</button>
+  </div>
+</div>
+
+<!-- ── Comment Submission Form ─────────────────────────────── -->
+<div class="comment-form-section reveal">
+  <h3>Share your thoughts</h3>
+
+  <div id="formStatus" class="form-status"></div>
+
+  <div class="form-grid">
+    <div class="form-field">
+      <label for="commenterName">Name *</label>
+      <input type="text" id="commenterName" placeholder="Your full name" maxlength="100" required>
+    </div>
+    <div class="form-field">
+      <label for="commenterEmail">
+        Email * <span style="color:var(--silver); font-weight:400; text-transform:none; letter-spacing:0;">(not shared publicly)</span>
+      </label>
+      <input type="email" id="commenterEmail" placeholder="your@email.com" maxlength="200" required>
+      <span class="hint">Your email will not be displayed.</span>
+    </div>
+    <div class="form-field">
+      <label for="commenterAffiliation">Affiliation <span style="color:var(--silver); font-weight:400; text-transform:none; letter-spacing:0;">(optional)</span></label>
+      <input type="text" id="commenterAffiliation" placeholder="University, institution, or role" maxlength="150">
+    </div>
+    <div class="form-field full-width">
+      <label for="commentText">Your comment *</label>
+      <textarea id="commentText" rows="5" placeholder="Write your reflection, critique, or response here…" maxlength="2000" required></textarea>
+    </div>
+  </div>
+  <div class="form-actions">
+    <button class="btn btn-primary" id="submitComment">Submit</button>
+  </div>
+</div>
+
+<!-- Supabase SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
