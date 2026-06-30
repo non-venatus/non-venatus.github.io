@@ -22,7 +22,7 @@ const CONFIG = {
   supabase: {
     url:            'https://rwmobytwkobejjlibatn.supabase.co/rest/v1/',      // e.g. https://xxxx.supabase.co
     anonKey:        'sb_publishable_83ZPlmqlXCkHiJ-fYquQDQ_FOazw7oc',          // Safe to expose (RLS protects data)
-    serviceRoleKey: 'sb_secret_ViQJLNATiCCSh3FtEk8zdw_beGQVHW2'  // Admin only — keep secret!
+    serviceRoleKey: 'placeholder'  // Admin only — keep secret!
   },
 
   // ── Admin password ────────────────────────────────────────────
