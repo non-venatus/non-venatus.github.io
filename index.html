@@ -297,19 +297,14 @@ document.addEventListener('keydown', function(e) {
     topPos = Math.max(80, Math.min(topPos, window.innerHeight - popupH - 20));
 
     popup.style.top  = topPos + 'px';
-    popup.style.left = (rect.left - 280) + 'px';
+    popup.style.left = (rect.right + 20) + 'px';
     popup.classList.add('is-visible');
 
     // Draw connector line
-    const popupRight = rect.left - 280 + 260;
-    const lineY      = itemMidY;
-    const lineWidth  = rect.left - popupRight - 4;
-    connector.style.top    = (lineY - 1) + 'px';
-    connector.style.left   = popupRight + 'px';
-    connector.style.width  = Math.max(lineWidth, 0) + 'px';
+    connector.style.top    = (itemMidY - 1) + 'px';
+    connector.style.left   = rect.right + 'px';
+    connector.style.width  = '20px';
     connector.classList.add('is-visible');
-  }
-
   function hidePopup() {
     popup.classList.remove('is-visible');
     connector.classList.remove('is-visible');
