@@ -1443,7 +1443,7 @@ strong { font-weight: 600; color: var(--white); }
 .chapter-connector {
   position: fixed;
   height: 2px;
-  background: rgba(122,158,122,1);
+  background: linear-gradient(90deg, rgba(122,158,122,.8), rgba(122,158,122,1));
   z-index: 599;
   pointer-events: none;
   opacity: 0;
