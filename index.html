@@ -299,14 +299,20 @@ document.addEventListener('keydown', function(e) {
     const isMobile = window.innerWidth <= 768;
     if (isMobile) {
       const panelRect = document.getElementById('chaptersPanel').getBoundingClientRect();
-      popup.style.top   = rect.top + 'px';
-      popup.style.left  = (panelRect.left + 46) + 'px';
-      popup.style.width = (panelRect.width - 46) + 'px';
+      let mobileTop = rect.top;
+      mobileTop = Math.max(10, Math.min(mobileTop, window.innerHeight - 300));
+      popup.style.top       = mobileTop + 'px';
+      popup.style.left      = (panelRect.left + 46) + 'px';
+      popup.style.width     = (panelRect.width - 46) + 'px';
+      popup.style.maxHeight = (window.innerHeight - mobileTop - 20) + 'px';
+      popup.style.overflowY = 'auto';
       connector.classList.remove('is-visible');
     } else {
-      popup.style.top   = topPos + 'px';
-      popup.style.left  = (rect.right + 20) + 'px';
-      popup.style.width = '260px';
+      popup.style.top       = topPos + 'px';
+      popup.style.left      = (rect.right + 20) + 'px';
+      popup.style.width     = '260px';
+      popup.style.maxHeight = '';
+      popup.style.overflowY = '';
       connector.style.top   = (itemMidY - 1) + 'px';
       connector.style.left  = rect.right + 'px';
       connector.style.width = '150px';
