@@ -20,49 +20,61 @@ events:
       relationship is reflected upon to decenter epistemic power and co-create knowledge.
     tags: ["4S", "Panel"]
 
-  - id: "launch-delhi"
-    title: "Book Launch — Delhi"
-    date: "August 2026"
-    venue: "New Delhi"
-    short_desc: "Official launch of Non-Venatus"
-    image: "img/event-placeholder.jpg"
-    popup_text: >
-      The official launch event for Non-Venatus: On the Production of Wars and Universities 
-      at the India International Centre, New Delhi. The event featured a panel discussion 
-      with scholars from political philosophy, postcolonial studies, and peace studies. 
-      The author Hidam Premananda was joined by academics from University of Delhi and 
-      Jawaharlal Nehru University to discuss the key concepts of the book, including 
-      venatus, Non-Venatus Studies, and peace nomadology.
-    tags: ["Book Launch"]
 
-  - id: "bloomsbury-talk"
-    title: "Bloomsbury Author Talk"
-    date: "August 2026"
-    venue: "Online / Bloomsbury Publishing"
-    short_desc: "Author talk hosted by Bloomsbury Academic"
-    image: "img/event-placeholder.jpg"
-    popup_text: >
-      An online author talk hosted by Bloomsbury Academic featuring Hidam Premananda 
-      in conversation about the intellectual journey behind Non-Venatus. The discussion 
-      explored the book's engagement with thinkers like Deleuze, Guattari, Öcalan, and 
-      the Dalai Lama, and what it means to build a 'Non-Venatus Studies' outside 
-      conventional academic standards.
-    tags: ["Online", "Author Talk"]
+  # - id: "launch-delhi"
+  #   title: "Book Launch — Delhi"
+  #   date: "August 2026"
+  #   venue: "New Delhi"
+  #   short_desc: "Official launch of Non-Venatus"
+  #   image: "img/event-placeholder.jpg"
+  #   popup_text: >
+  #     The official launch event for Non-Venatus: On the Production of Wars and Universities 
+  #     at the India International Centre, New Delhi. The event featured a panel discussion 
+  #     with scholars from political philosophy, postcolonial studies, and peace studies. 
+  #     The author Hidam Premananda was joined by academics from University of Delhi and 
+  #     Jawaharlal Nehru University to discuss the key concepts of the book, including 
+  #     venatus, Non-Venatus Studies, and peace nomadology.
+  #   tags: ["Book Launch"]
 
-  - id: "read-act-session"
-    title: "Read-Act Special Session"
-    date: "September 2026"
-    venue: "Read-Act Community, New Delhi"
-    short_desc: "A special reading and discussion session with the Read-Act community"
-    image: "img/event-placeholder.jpg"
-    popup_text: >
-      A special session of the Read-Act book club dedicated to Non-Venatus. 
-      Participants read and discussed selected chapters from the book, focusing on 
-      the themes of 'peace nomadology' and the critique of academic violence. 
-      The session brought together scholars, artists, and activists to engage with 
-      the book's proposals for fugitive thinking.
-    tags: ["Reading Group", "Community"]
+  # - id: "bloomsbury-talk"
+  #   title: "Bloomsbury Author Talk"
+  #   date: "August 2026"
+  #   venue: "Online / Bloomsbury Publishing"
+  #   short_desc: "Author talk hosted by Bloomsbury Academic"
+  #   image: "img/event-placeholder.jpg"
+  #   popup_text: >
+  #     An online author talk hosted by Bloomsbury Academic featuring Hidam Premananda 
+  #     in conversation about the intellectual journey behind Non-Venatus. The discussion 
+  #     explored the book's engagement with thinkers like Deleuze, Guattari, Öcalan, and 
+  #     the Dalai Lama, and what it means to build a 'Non-Venatus Studies' outside 
+  #     conventional academic standards.
+  #   tags: ["Online", "Author Talk"]
 
+  # - id: "read-act-session"
+  #   title: "Read-Act Special Session"
+  #   date: "September 2026"
+  #   venue: "Read-Act Community, New Delhi"
+  #   short_desc: "A special reading and discussion session with the Read-Act community"
+  #   image: "img/event-placeholder.jpg"
+  #   popup_text: >
+  #     A special session of the Read-Act book club dedicated to Non-Venatus. 
+  #     Participants read and discussed selected chapters from the book, focusing on 
+  #     the themes of 'peace nomadology' and the critique of academic violence. 
+  #     The session brought together scholars, artists, and activists to engage with 
+  #     the book's proposals for fugitive thinking.
+  #   tags: ["Reading Group", "Community"]
+
+
+  - id: "workshop-2"
+    title: "Diagrammatic Techniques in Research (Workshop)"
+    date: "March 2026"
+    venue: "HSS Dept IIT Dellhi"
+    short_desc: "Research Scholars Group IIT-Delhi"
+    image: "img/iit-workshop.jpg"
+    popup_text: >
+      We conducted a workshop on the "Diagrammatic Techniques in Research" at HSS Dept, IIT Delhi. The workshop was jointly organised by Read-Act and HSS Research Scholars Group at IIT Delhi. The workshop was a dialogue with the fellow researchers on the technique of diagram, one of the fundamental ideas discussed in the book. The scholars were encouraged to think through diagrammatic technique in their own research, with the focus on "making sense".
+    tags: ["Research Workshop", "Diagrammatic Technique"]
+    
   - id: "workshop-1"
     title: "Diagrammatic Techniques in Research (Workshop)"
     date: "December 2025"
