@@ -1365,6 +1365,14 @@ strong { font-weight: 600; color: var(--white); }
   .hero__cover-flipper {
     height: 300px;
   }
+
+  .chapter-popup {
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+  }
+  .popup-quote {
+    font-size: 0.78rem;
+  }
   
 
   .home-sections  { padding: 0 1.25rem 4rem; }
