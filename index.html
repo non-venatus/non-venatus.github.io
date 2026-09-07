@@ -341,6 +341,11 @@ document.getElementById('openCoverModal').addEventListener('click', function() {
   openModal(document.getElementById('coverModal'));
 });
 
+// Open poster modal
+document.getElementById('openPosterModal').addEventListener('click', function() {
+  openModal(document.getElementById('posterModal'));
+});
+
 // Open quote modal from cards
 document.querySelectorAll('.quote-card').forEach(function(card) {
   card.addEventListener('click', function() {
