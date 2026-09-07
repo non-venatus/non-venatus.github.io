@@ -50,7 +50,6 @@ events:
       —
       Followed by tea and coffee.
 
-events:
   - id: "panel-1"
     title: "4S Panel- Toronto"
     date: "October 2026"
