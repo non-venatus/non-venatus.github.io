@@ -6,6 +6,51 @@
 # =====================================================
 
 events:
+  - id: "iic-delhi-launch-2026"
+    title: "Book Launch — How can universities help us escape wars?"
+    date: "27 September 2026, 2:00–5:00 pm"
+    venue: "Seminar Halls 1 & 2, Kamala Devi Complex, India International Centre, New Delhi"
+    image: "img/event-poster.jpg"
+    tags:
+      - "Book Launch"
+      - "Panel Discussion"
+      - "New Delhi"
+    short_desc: >
+      The launch of Non-Venatus at the India International Centre, with a panel
+      discussion on the question that frames the book's broader arc: how can
+      universities help us escape wars?
+    popup_text: >
+      The launch and discussion of Non-Venatus: On the Production of Wars and
+      Universities (Bloomsbury, 2026) will be held at the India International
+      Centre, New Delhi, on 27 September 2026 from 2:00 to 5:00 pm, in Seminar
+      Halls 1 and 2 of the Kamala Devi Complex on Max Mueller Marg.
+      —
+      The discussion centres on a question that frames the book's broader arc:
+      How can universities help us escape wars? The format is designed to allow
+      both intellectual breadth and sustained reflection.
+      —
+      PANELLISTS. Saikat Ghosh (SGTB Khalsa College, University of Delhi) and
+      Soumyabrata Choudhury (School of Arts and Aesthetics, JNU), with RK
+      Jackson Singh as moderator.
+      —
+      2:00–2:55 pm. Welcome and introduction of the panellists. Each panellist
+      delivers opening remarks addressing the framing question for 12 to 15
+      minutes, after which the author shares a few thoughts on the book.
+      —
+      2:55–3:40 pm. The moderator reviews key points from each speaker's opening
+      remarks, then puts questions to the panellists and the author one at a
+      time. They respond with insights into specific parts of the book and
+      beyond, tying them back to the main theme.
+      —
+      3:40–4:10 pm. The moderator collects comments, questions, and ideas from
+      the audience. This is deliberately not called a Q&A session, as the event
+      moves away from emphasising solutions and answers over problems and
+      questions. Scholars and researchers are encouraged to share thoughts
+      inspired by the speakers.
+      —
+      Followed by tea and coffee.
+
+events:
   - id: "panel-1"
     title: "4S Panel- Toronto"
     date: "October 2026"
