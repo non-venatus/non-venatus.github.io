@@ -4,7 +4,7 @@
 # image: path relative to /img/ folder
 # popup_text: full description shown in the event popup
 # =====================================================
-
+ 
 events:
   - id: "iic-delhi-launch-2026"
     title: "Book Launch — How can universities help us escape wars?"
