@@ -112,7 +112,6 @@ title: Home
       <div class="launch-banner__actions">
         <a href="{{ site.baseurl }}/img/event-poster.jpg"
            download="NonVenatus-launch-poster.jpg" class="btn btn-primary">↓ Download poster</a>
-        <a href="{{ site.baseurl }}/engagements.html" class="btn btn-outline">All engagements</a>
       </div>
     </div>
 
@@ -127,6 +126,34 @@ title: Home
   </div>
 </div>
 
+
+<!-- ════════════════════════════════════════════
+     PRIOR ENGAGEMENTS LIST
+     ════════════════════════════════════════════ -->
+<section class="prior-engagements">
+  <div class="prior-engagements__inner reveal">
+    <span class="eyebrow">Also on the road</span>
+    <h3>Other book engagements</h3>
+
+    <ul class="engagement-list">
+      {% for event in site.data.engagements.events %}
+        {% unless event.id == 'iic-delhi-launch-2026' %}
+        <li class="engagement-list__item">
+          <span class="engagement-list__date">{{ event.date }}</span>
+          <div class="engagement-list__body">
+            <strong>{{ event.title }}</strong>
+            <span>{{ event.venue }}</span>
+          </div>
+        </li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+
+    <div class="prior-engagements__actions">
+      <a href="{{ site.baseurl }}/engagements.html" class="btn btn-outline">See more engagements</a>
+    </div>
+  </div>
+</section>
 
 
 
