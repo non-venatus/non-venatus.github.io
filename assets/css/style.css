@@ -1729,3 +1729,16 @@ strong { font-weight: 600; color: var(--white); }
   margin-top: 0.9rem;
   width: 100%;
 }
+
+/* ── Justified body text ──────────────────────────────────── */
+.about-book__text p,
+.author-bio p,
+.about-content p,
+.event-card__desc,
+.event-popup-body p,
+.comment-text,
+.reply-text,
+.read-act-section p {
+  text-align: justify;
+  hyphens: auto;
+}
