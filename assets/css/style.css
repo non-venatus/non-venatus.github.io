@@ -1721,3 +1721,11 @@ strong { font-weight: 600; color: var(--white); }
   color: var(--silver);
   font-family: monospace;
 }
+
+
+.launch-poster-download {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.9rem;
+  width: 100%;
+}
