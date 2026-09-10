@@ -20,7 +20,7 @@ title: Home
       <p class="hero__author">by <strong>Hidam Premananda</strong></p>
       <p class="hero__publisher">Bloomsbury · ISBN 978-93-69526-47-5</p>
       <div class="hero__actions">
-        <a href="https://www.bloomsbury.com/in/nonvenatus-9789369526475/" target="_blank" rel="noopener" class="btn btn-primary">Order from Bloomsbury</a>
+                <button class="btn btn-primary" id="openOrderModal">Order from Bloomsbury</button>
         <a href="/about.html" class="btn btn-outline">About the Book</a>
       </div>
     </div>
@@ -378,6 +378,34 @@ const HOME_EVENTS_DATA = [
   </div>
 </div>
 
+
+<!-- ════════════════════════════════════════════
+     ORDER REGION MODAL
+     ════════════════════════════════════════════ -->
+
+<div class="modal-overlay" id="orderModal" role="dialog" aria-modal="true" aria-label="Choose your region">
+  <div class="modal-box order-modal-box" id="orderModalBox">
+    <button class="modal-close" id="closeOrderModal" aria-label="Close">✕</button>
+    <div class="order-modal-body">
+      <span class="eyebrow">Order from Bloomsbury</span>
+      <h2>Choose your region</h2>
+      <p class="order-modal-note">You'll be taken to the Bloomsbury store for your region.</p>
+      <ul class="order-region-list">
+        <li><a href="https://www.bloomsbury.com/in/nonvenatus-9789369526475/" target="_blank" rel="noopener">
+          <strong>India</strong><span>bloomsbury.com/in</span></a></li>
+        <li><a href="https://www.bloomsbury.com/uk/nonvenatus-9789369529810/" target="_blank" rel="noopener">
+          <strong>United Kingdom</strong><span>bloomsbury.com/uk</span></a></li>
+        <li><a href="https://www.bloomsbury.com/us/nonvenatus-9789369526031/" target="_blank" rel="noopener">
+          <strong>United States</strong><span>bloomsbury.com/us</span></a></li>
+        <li><a href="https://www.bloomsbury.com/ca/nonvenatus-9789369526031/" target="_blank" rel="noopener">
+          <strong>Canada</strong><span>bloomsbury.com/ca</span></a></li>
+        <li><a href="https://www.bloomsbury.com/au/nonvenatus-9789369529810/" target="_blank" rel="noopener">
+          <strong>Australia</strong><span>bloomsbury.com/au</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <script>
 function openModal(el) {
   el.classList.add('is-open');
@@ -403,6 +431,11 @@ document.getElementById('openCoverModal').addEventListener('click', function() {
 // Open poster modal
 document.getElementById('openPosterModal').addEventListener('click', function() {
   openModal(document.getElementById('posterModal'));
+});
+
+// Open order modal
+document.getElementById('openOrderModal').addEventListener('click', function() {
+  openModal(document.getElementById('orderModal'));
 });
 
 // Open quote modal from cards
@@ -565,4 +598,6 @@ document.addEventListener('keydown', function(e) {
 
   popup.addEventListener('click', e => e.stopPropagation());
 })();
+
+     
 </script>
