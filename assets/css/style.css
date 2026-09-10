@@ -1667,3 +1667,44 @@ strong { font-weight: 600; color: var(--white); }
 .engagement-list__item {
   cursor: pointer;
 }
+
+
+/* ── Order region modal ───────────────────────────────────── */
+.order-modal-box { max-width: 420px; }
+.order-modal-body { padding: 2rem; }
+.order-modal-body h2 { font-size: 1.5rem; margin: 0.2rem 0 0.5rem; }
+.order-modal-note {
+  font-size: 0.85rem;
+  color: var(--silver);
+  margin-bottom: 1.5rem;
+}
+
+.order-region-list { list-style: none; display: grid; gap: 0.5rem; }
+.order-region-list a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid rgba(30,125,142,.22);
+  border-radius: 8px;
+  background: rgba(255,255,255,.03);
+  transition: all var(--ease);
+  text-decoration: none;
+}
+.order-region-list a:hover {
+  border-color: var(--teal-mid);
+  background: rgba(30,125,142,.12);
+  transform: translateX(3px);
+}
+.order-region-list strong {
+  font-size: 0.95rem;
+  color: var(--smoke);
+  font-weight: 600;
+}
+.order-region-list a:hover strong { color: var(--white); }
+.order-region-list span {
+  font-size: 0.75rem;
+  color: var(--silver);
+  font-family: monospace;
+}
