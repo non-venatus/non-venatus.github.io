@@ -584,6 +584,9 @@ strong { font-weight: 600; color: var(--white); }
   object-fit: cover;
   object-position: center top;
 }
+#about-book {
+  scroll-margin-top: 90px;
+}
 
 .cover-thumb-btn {
   display: block;
