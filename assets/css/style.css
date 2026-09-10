@@ -1598,3 +1598,68 @@ strong { font-weight: 600; color: var(--white); }
   .launch-banner__when   { grid-template-columns: 1fr; }
   .sched-item            { grid-template-columns: 1fr; gap: 0.3rem; }
 }
+
+
+/* ── Prior engagements list (homepage) ────────────────────── */
+.prior-engagements {
+  padding: 1rem 0 2rem;
+  position: relative;
+  z-index: 2;
+}
+.prior-engagements__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.prior-engagements h3 {
+  font-size: 1.3rem;
+  margin: 0.2rem 0 1.5rem;
+}
+
+.engagement-list {
+  list-style: none;
+  border-top: 1px solid rgba(30,125,142,.15);
+}
+.engagement-list__item {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 1.5rem;
+  padding: 1rem 0.25rem;
+  border-bottom: 1px solid rgba(30,125,142,.12);
+  transition: background var(--ease), padding-left var(--ease);
+}
+.engagement-list__item:hover {
+  background: rgba(255,255,255,.02);
+  padding-left: 0.75rem;
+}
+.engagement-list__date {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--sage-glow);
+  letter-spacing: 0.02em;
+  padding-top: 0.1rem;
+}
+.engagement-list__body strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--smoke);
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.engagement-list__body span {
+  font-size: 0.82rem;
+  color: var(--silver);
+}
+
+.prior-engagements__actions {
+  margin-top: 1.75rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .prior-engagements__inner { padding: 0 1.25rem; }
+  .engagement-list__item {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
