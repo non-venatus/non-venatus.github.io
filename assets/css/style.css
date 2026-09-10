@@ -1663,3 +1663,7 @@ strong { font-weight: 600; color: var(--white); }
     gap: 0.3rem;
   }
 }
+
+.engagement-list__item {
+  cursor: pointer;
+}
