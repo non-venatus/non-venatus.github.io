@@ -138,7 +138,7 @@ title: Home
     <ul class="engagement-list">
       {% for event in site.data.engagements.events %}
         {% unless event.id == 'iic-delhi-launch-2026' %}
-        <li class="engagement-list__item">
+        <li class="engagement-list__item" data-event="{{ event.id }}" role="button" tabindex="0">
           <span class="engagement-list__date">{{ event.date }}</span>
           <div class="engagement-list__body">
             <strong>{{ event.title }}</strong>
@@ -148,7 +148,7 @@ title: Home
         {% endunless %}
       {% endfor %}
     </ul>
-
+       
     <div class="prior-engagements__actions">
       <a href="{{ site.baseurl }}/engagements.html" class="btn btn-outline">See more engagements</a>
     </div>
