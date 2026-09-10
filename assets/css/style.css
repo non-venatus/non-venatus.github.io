@@ -627,7 +627,7 @@ strong { font-weight: 600; color: var(--white); }
 /* About the Book */
 .about-book {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.35fr 1fr;
   gap: 3rem;
   margin-bottom: 5rem;
   padding-top: 3rem;
