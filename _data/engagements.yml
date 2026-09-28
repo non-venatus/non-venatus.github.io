@@ -6,6 +6,21 @@
 # =====================================================
  
 events:
+
+  - id: "panel-1"
+    title: "Society for Social Studies of Science (4S) Panel- Toronto, Canada"
+    date: "October 2026"
+    venue: "Society for Social Studies of Science (4S) Conference, Toronto"
+    short_desc: "Open Panel on Diagrammatic Techniques in Research"
+    image: "img/4s-toronto.png"
+    popup_text: >
+      We are hosting an open panel at 4S'26 happening in Toronto in October. We will be discussing themes
+      from Non-Venatus, especially the section on diagrammatic techniques for research. We have received
+      submissions from other researchers experimenting with co-design and participatory design
+      in their works. We are hoping to exchange lessons from the field where the researcher-participant
+      relationship is reflected upon to decenter epistemic power and co-create knowledge.
+    tags: ["4S", "Panel"]
+
   - id: "iic-delhi-launch-2026"
     title: "Book Launch — How can universities help us escape wars?"
     date: "27 September 2026, 2:00–5:00 pm"
@@ -33,19 +48,6 @@ events:
       Soumyabrata Choudhury (School of Arts and Aesthetics, JNU), with RK
       Jackson Singh as moderator.
 
-  - id: "panel-1"
-    title: "Society for Social Studies of Science (4S) Panel- Toronto, Canada"
-    date: "October 2026"
-    venue: "Society for Social Studies of Science (4S) Conference, Toronto"
-    short_desc: "Open Panel on Diagrammatic Techniques in Research"
-    image: "img/4s-toronto.png"
-    popup_text: >
-      We are hosting an open panel at 4S'26 happening in Toronto in October. We will be discussing themes
-      from Non-Venatus, especially the section on diagrammatic techniques for research. We have received
-      submissions from other researchers experimenting with co-design and participatory design
-      in their works. We are hoping to exchange lessons from the field where the researcher-participant
-      relationship is reflected upon to decenter epistemic power and co-create knowledge.
-    tags: ["4S", "Panel"]
 
 
   # - id: "launch-delhi"
